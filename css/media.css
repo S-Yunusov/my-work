@@ -1,0 +1,131 @@
+@media (max-width: 1399.98px){
+  .carousel__content-text{
+    margin-left: 0;
+  }  
+  .carousel__content-title{
+    margin-left: 0;
+  }
+  .carousel__content-link{
+    margin: 0 auto 50px;
+  }
+  .tab-pane__text,
+  .tab-pane__title{
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 1199.98px){
+  .carousel__content{
+    padding-left: 0;
+  }
+  .carousel__content-title{
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .carousel__content-label{
+    font-size: 15px;
+  }
+  .nav-tabs{
+    flex-direction: row;
+    box-shadow: none;
+    border-radius: 0;
+    overflow: visible;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  .nav-tabs .nav-link{
+    padding: 16px;
+   border-radius:8px;
+  }
+}  
+@media (max-width: 991.98px){
+  .nav-link{
+    margin: 20px 0 0;
+  }
+  .carousel-item{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .carousel__img{
+    height: auto;
+    margin-top: 20px;
+  }
+  .carousel__content{
+    padding-right: 0;
+  }
+  
+  .about__col{
+    margin-bottom: 30px;
+  }
+  
+  .about__content{
+    text-align: center;
+    padding: 30px;
+  }
+  .about__content-link{
+    margin: 0 auto;
+  }
+  .skills__img{
+    max-width: 100%;
+    margin-top: 30px;
+  }
+  .nav-tabs{
+    justify-content: center;
+  }
+  .nav-tabs .nav-item{
+    margin: 10px;
+  }
+  .footer__menu,
+  .footer__adress{
+    justify-content: center;
+    padding: 0;
+  }
+  .footer__menu-item,
+  .footer__adress-item{
+    margin: 10px !important;
+    text-align: center;
+  }
+}
+@media (max-width: 767.98px){
+  .tab-pane__img{
+    display: none;
+  }
+  .tab-pane__content{
+    margin: 0;
+  }
+  .tab-content{
+    padding: 20px;
+    text-align: center;
+  }
+  .tab-pane__link{
+    margin: 0 auto;
+  }
+}
+@media (max-width: 575.98px){
+ .about__content-title{
+  line-height: 50px;
+ } 
+}
+
+@media (prefers-color-scheme: dark){
+  .navbar-brand::before,
+  .footer__logo::before{
+    content: url(../images/logo-dark.svg);
+  }
+  body,
+  .about__content,
+  .accordion-button{
+    background: var(--dark-bg-color);
+  }
+  .carousel__content-text,
+  .about__label,
+  .about__content-text,
+  .tab-pane__text,
+  .footer__menu-link,
+  .footer__adress-link{
+    color: var(--dark-font-color);
+  }
+  .about__label{
+    background: var(--main-color);
+  }
+}
